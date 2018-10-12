@@ -1,0 +1,21 @@
+li {
+  margin-top: 100px;
+  color: pink;
+  text-shadow: 49px -7px 0px rgba(255, 28, 136, 1);s
+}
+
+li a:link {
+  color: red;
+}
+
+li a:visited {
+  color: black;
+}
+
+li a:hover {
+  color: green;
+}
+
+li a:active {
+  color: blue;
+}

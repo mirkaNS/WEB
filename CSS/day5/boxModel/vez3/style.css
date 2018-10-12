@@ -1,0 +1,21 @@
+h1 {
+  width: 960px;
+  background: red;
+  text-align: center;
+  padding: 50px 0 50px 0;
+  margin: 50px auto;
+  color: pink;
+  font-family: "Charmonman", cursive;
+  -webkit-box-shadow: 6px -1px 95px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px -1px 95px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px -1px 95px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 50%;
+}
+
+#middle {
+  visibility: hidden;
+}
+
+#last {
+  visibility: hidden;
+}

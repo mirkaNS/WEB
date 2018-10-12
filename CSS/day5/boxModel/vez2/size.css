@@ -1,0 +1,12 @@
+#first {
+  background: yellow;
+  max-width: 300px;
+  height: 500px;
+  overflow: hidden;
+}
+p {
+  background: red;
+  width: 600px;
+  max-height: 300px;
+  overflow: visible;
+}
