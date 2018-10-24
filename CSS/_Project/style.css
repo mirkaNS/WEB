@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Mira i Visnja';
+    src: url('./fonts/Roboto-Regular.ttf');
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mira i Visnja';
+    font-size: 1em;
+}
+
+nav {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1{
+    color: rgb(134, 137, 139);
+    text-align: center;   
+}
+h1 span {
+    padding-left: 8px;
+    color: rgb(248, 166, 14);
+    border-left: 3px solid rgb(134, 137, 139);
+    border-top: 3px solid rgb(134, 137, 139);
+    border-bottom: 3px solid rgb(134, 137, 139);
+}
+nav ul {
+   
+   list-style: none;
+   text-align: center; 
+   background-color: rgb(101, 175, 236);
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+nav li {
+    font-size: 1em;
+    padding-top:7px;
+    padding-bottom:7px;
+    color: white;
+    font-weight: bold;
+}
+
+@media (min-width:768px){
+    h1{
+        float: left;
+        color:white;
+    }
+    nav ul {
+      float: right;
+      margin-top: 20px;
+      background-color:transparent;
+    }
+
+    nav li{
+      float: left;
+      padding: 20px;
+    }
+  }
+
+/* header */
+
+header {
+    background: url("./images/banner3.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 60px 30px;
+}
+header h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color:white;
+    font-weight:normal;
+}
+header a {
+    background-color:rgb(55, 85, 219);
+    color:white;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 25px;
+    border-radius: 25px;
+    display: block;
+    margin:20px auto 0 auto; 
+    width: 125px;  
+}
+
+
+@media (min-width:768px){
+ 
+    header{
+       padding: 150px 60px 80px;
+    }
+}
+
+
+/*  welcome section */
+
+main {
+    width: 85%;
+    margin: 0 auto;
+}
+section h2 {
+
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom:10px;
+}
+section h3 {
+    padding:10px 0;
+    font-size: 16px;
+    color:rgb(101, 175, 236);
+}
+article li{
+
+    color:black;
+}
+
+
+img{
+   
+    width: 50%;
+}
