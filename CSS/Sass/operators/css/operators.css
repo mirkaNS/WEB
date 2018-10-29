@@ -1,0 +1,15 @@
+.common, .first, .second, .third {
+  border: 2px solid; }
+
+.first {
+  border-color: red;
+  font-size: 32px; }
+
+.second {
+  border-color: blue;
+  width: 900px; }
+
+.third {
+  border-color: green; }
+
+/*# sourceMappingURL=operators.css.map */

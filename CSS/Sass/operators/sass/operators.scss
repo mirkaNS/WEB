@@ -1,0 +1,22 @@
+
+.common {
+
+    border: 2px solid;
+}
+
+
+.first{
+    @extend .common;
+    border-color: red;
+    font-size: 16px*2;
+}
+
+.second{
+    @extend.common;
+    border-color: blue;
+    width: 300px*3;
+}
+.third{
+    @extend.common;
+    border-color: green;
+}

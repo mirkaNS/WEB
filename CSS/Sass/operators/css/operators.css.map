@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,gCAAQ;EAEJ,MAAM,EAAE,SAAS;;AAIrB,MAAM;EAEF,YAAY,EAAE,GAAG;EACjB,SAAS,EAAE,IAAM;;AAGrB,OAAO;EAEH,YAAY,EAAE,IAAI;EAClB,KAAK,EAAE,KAAO;;AAElB,MAAM;EAEF,YAAY,EAAE,KAAK",
+"sources": ["../sass/operators.scss"],
+"names": [],
+"file": "operators.css"
+}
