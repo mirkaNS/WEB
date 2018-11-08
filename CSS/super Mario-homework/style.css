@@ -1,0 +1,25 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.bg{
+    background-image: url(./images/bg.jpg);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x;
+
+}
+img{
+    position: absolute;
+    bottom: 70px;
+    left: 370px;
+    height: 200px;
+  
+}
