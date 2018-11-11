@@ -1,6 +1,7 @@
 var $superMario=document.querySelector("#mario");
 var $bacground=document.querySelector(".bg");
 var $body=document.querySelector("body");
+var $superRunningMario=document.querySelector("#runningMario");
 
 $body.addEventListener("keydown",goMario);
 
@@ -14,11 +15,13 @@ function goMario(e){
     if(x==39){
         left+=500;
        $bacground.style.backgroundPosition=left+"px";
-       $superMario.src="./images/mario_running.gif";
+       $superMario.style.visibility="hidden";
+       $superRunningMario.style.visibility="visible";
        
     }
 
 }
 function oldImg(){
-    $superMario.src="./images/mario.png";
+    $superMario.style.visibility="visible";
+    $superRunningMario.style.visibility="hidden";
 }

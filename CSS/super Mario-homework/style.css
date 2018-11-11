@@ -16,10 +16,17 @@ body{
     background-repeat: repeat-x;
 
 }
-img{
+#mario{
     position: absolute;
     bottom: 70px;
     left: 370px;
     height: 200px;
-  
+}
+#runningMario{
+    position: absolute;
+    bottom: 70px;
+    left: 370px;
+    height: 200px;
+    visibility: hidden;
+
 }
